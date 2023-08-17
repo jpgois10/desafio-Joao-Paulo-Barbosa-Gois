@@ -64,8 +64,8 @@ class CaixaDaLanchonete {
 }
 
 const caixa = new CaixaDaLanchonete();
-console.log(caixa.calcularValorDaCompra("debito", ["chantily,1"])); // "Item extra não pode ser pedido sem o principal"
-console.log(caixa.calcularValorDaCompra("debito", ["cafe,1", "chantily,1"])); // "R$ 4.50"
-console.log(caixa.calcularValorDaCompra("credito", ["combo1,1", "cafe,2"])); // "R$ 15.96"
+console.log(caixa.calcularValorDaCompra("debito", ["chantily,1"]));
+console.log(caixa.calcularValorDaCompra("debito", ["cafe,1", "chantily,1"]));
+console.log(caixa.calcularValorDaCompra("credito", ["combo1,1", "cafe,2"]));
 
 export { CaixaDaLanchonete };
